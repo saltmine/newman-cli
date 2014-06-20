@@ -1,0 +1,12 @@
+Newman
+======
+
+Newman helps create CLI tools for raw python functions. It makes it easy to
+enumerate which functions you want exposed to the CLI, and does a bit of
+magic to dedude proper signatures for python functions that map well to the
+CLI.
+
+You would take newman as a dependency of your project if you want to avoid
+the boilerplate of making new CLI entry-points for small bits of python. It
+supports a wide range of sane defaults, and builds nested documentation based
+on the docstrings of exposed functions.
